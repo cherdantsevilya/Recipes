@@ -6,9 +6,9 @@ ___
 
 ## 🚀 **Description**
 
-Sometimes, it's useful to have a tool that can help you share a piece of code with other programmers. Actually, there is a website called Pastebin that does exactly that. A huge downside of Pastebin is that every piece of code you share automatically becomes available for the public. This could present a problem since many programmers work under the NDA (Non-disclosure agreement) which prohibits the use of such services to prevent the source code from leaking.
+Sometimes it is very difficult to resist the desire to cook something special. But what if you lost the recipe? Or is your beloved grandmother too busy to answer the phone and remind you of the recipe for your favorite cake?
 
-If there is a team of programmers who work in the same company and want to exchange pieces of code, they can solve this problem by using their own implementation of Pastebin. Such a web service is supposed to be accessible only locally, not via the Internet.
+Let's solve this problem with `Recipes` - a program that can store all recipes in one place. The program is a multi-user web service based on Spring Boot, which allows you to store, extract, update and delete recipes. In fact, this is a REST application that uses a lightweight H2 database as a recipe repository.
 
 ###### *For detailed information, refer to the [**JetBrains Academy**](https://hyperskill.org/projects/130?track=12).*
 
